@@ -779,7 +779,6 @@ void TaskServer(void *pvParameters) //RTOS Task where all TimeKeeper Server Even
             Serial.println("Creating New Log"); //HTTP
           }else{
             http.getString().toCharArray(taskOptions, 100);
-            Serial.println(taskOptions); //HTTP
           }
         }
       }else{
